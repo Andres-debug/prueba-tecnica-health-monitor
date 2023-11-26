@@ -8,10 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#fff",
+        primaryDark: "rgba(255,255,255, 0.7);",
+        secondary: "#538EAC",
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        radialBlack:
+        "linear-gradient(90deg, #6de4e8 0%, rgba(0, 178, 218, 0.6) 95.83%)",
+        blueRadial:
+          "linear-gradient(90deg, #6de4e8 0%, rgba(0, 178, 218, 0.6) 95.83%)",
+      },
+      boxShadow: {
+        dark: "0px 20px 100px -10px rgba(66, 71, 91, 0.1)",
       },
     },
   },
