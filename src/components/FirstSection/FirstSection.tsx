@@ -7,7 +7,7 @@ import { Reveal } from "../Reveal"
 
 export function FirstSection() {
     return (
-        <div className="relative p-4 md:py-40">
+        <div className="relative p-4 md:py-30">
         <div className="grid max-w-5xl mx-auto md:grid-cols-2">
             <div>
                 <Reveal>

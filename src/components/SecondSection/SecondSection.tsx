@@ -7,7 +7,7 @@ import Image from "next/image"
 
 export function SecondSection() {
     return (
-        <div className="relative px-6 py-20 md:py-64" id="features">
+        <div className="relative px-6 py-20 pb-48" id="features">
     <div className="grid max-w-5xl mx-auto md:grid-cols-2">
         <div>
             <Reveal>
@@ -22,7 +22,7 @@ export function SecondSection() {
             </Reveal>
             <Reveal>
                 <div className="my-8">
-                    <Link href="#pricing" className="px-4 py-3 rounded-md bg-blueRadial">Elige tu plan</Link>
+                    <Link href="/plans" className="px-4 py-3 rounded-md bg-blueRadial">Elige tu plan</Link>
                 </div>
             </Reveal>
         </div>

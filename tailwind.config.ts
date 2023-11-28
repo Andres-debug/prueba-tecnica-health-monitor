@@ -15,9 +15,11 @@ const config: Config = {
       },
       backgroundImage: {
         radialBlack:
-        "linear-gradient(90deg, #6de4e8 0%, rgba(0, 178, 218, 0.6) 95.83%)",
+        "linear-gradient(90deg, #4a90e2 0%, rgba(74, 144, 226, 0.6) 95.83%);",
         blueRadial:
-          "linear-gradient(90deg, #6de4e8 0%, rgba(0, 178, 218, 0.6) 95.83%)",
+          "linear-gradient(90deg, #63a4ff 0%, rgba(99, 164, 255, 0.6) 95.83%);",
+          
+          
       },
       boxShadow: {
         dark: "0px 20px 100px -10px rgba(66, 71, 91, 0.1)",
