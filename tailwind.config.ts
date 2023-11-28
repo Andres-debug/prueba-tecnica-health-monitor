@@ -8,10 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#fff",
+        primaryDark: "rgba(255,255,255, 0.7);",
+        secondary: "#538EAC",
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        radialBlueBlack:
+        "linear-gradient(90deg, #4a90e2 0%, rgba(74, 144, 226, 0.6) 95.83%);",
+        blueRadial:"#63a4ff",
+          
+          
+      },
+      boxShadow: {
+        dark: "0px 20px 100px -10px rgba(66, 71, 91, 0.1)",
       },
     },
   },

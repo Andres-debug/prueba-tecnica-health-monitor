@@ -7,7 +7,7 @@ import { Reveal } from "../Reveal"
 
 export function FirstSection() {
     return (
-        <div className="relative p-4 md:py-40">
+        <div className="relative p-4 md:py-30 mt-14">
         <div className="grid max-w-5xl mx-auto md:grid-cols-2">
             <div>
                 <Reveal>
@@ -24,7 +24,7 @@ export function FirstSection() {
                 </Reveal>
                 <Reveal>
                     <div className="my-8">
-                       <Link href="#clients" className="px-4 py-3 rounded-md bg-blueRadial">Empieza ahora</Link>
+                       <Link href="#clients" className="px-4 py-3 rounded-md font-bold text-white bg-sky-500/100">Empieza ahora</Link>
                     </div>
                 </Reveal>
             </div>
