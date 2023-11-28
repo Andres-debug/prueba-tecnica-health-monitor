@@ -22,7 +22,7 @@ export function SecondSection() {
             </Reveal>
             <Reveal>
                 <div className="my-8">
-                    <Link href="/plans" className="px-4 py-3 rounded-md bg-blueRadial">Elige tu plan</Link>
+                    <Link href="/plans" className="px-4 py-3 rounded-md font-bold text-white bg-sky-500/100">Elige tu plan</Link>
                 </div>
             </Reveal>
         </div>
@@ -30,11 +30,11 @@ export function SecondSection() {
         <div className="grid items-center py-5 md:p-8">
             {dataFeaturesSection.map(({ id, icon, title, description }) => (
                 <Reveal key={id}>
-                    <div className="grid grid-flow-col gap-5 px-4 py-2 rounded-3xl group hover:bg-radialBlueBlack">
+                    <div className="grid grid-flow-col gap-5 px-4 py-2 rounded-lg group hover:bg-radialBlueBlack">
                          <Image src={`/assets/${icon}.png`} alt={title} width={40} height={40} /> 
                         <div>
                             <h4 >{title}</h4>
-                            <p className="text-primaryDark">{description}</p>
+                            <p className="text-primaryDark py-2">{description}</p>
                         </div>
                     </div>
                 </Reveal>
