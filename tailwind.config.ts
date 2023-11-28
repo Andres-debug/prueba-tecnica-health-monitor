@@ -14,7 +14,7 @@ const config: Config = {
         secondary: "#538EAC",
       },
       backgroundImage: {
-        radialBlack:
+        radialBlueBlack:
         "linear-gradient(90deg, #4a90e2 0%, rgba(74, 144, 226, 0.6) 95.83%);",
         blueRadial:
           "linear-gradient(90deg, #63a4ff 0%, rgba(99, 164, 255, 0.6) 95.83%);",

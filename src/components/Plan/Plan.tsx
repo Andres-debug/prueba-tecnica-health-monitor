@@ -6,6 +6,7 @@ interface PlanProps {
   description: string;
   price: string;
   frequency: string;
+  onPlanSelect: () => void;
 }
 
 export const Plan: React.FC<PlanProps> = ({
@@ -13,6 +14,7 @@ export const Plan: React.FC<PlanProps> = ({
   description,
   price,
   frequency,
+  onPlanSelect,
 }: PlanProps) => {
   return (
     <div className="bg-white transition-transform duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 shadow-xl rounded-lg overflow-hidden w-[300px] flex flex-col">
@@ -33,6 +35,7 @@ export const Plan: React.FC<PlanProps> = ({
         className="mt-auto"
       >
         <button 
+        onClick={onPlanSelect}
           className="w-full py-2 font-bold text-white bg-gradient-to-r from-blue-500 to-[#67D1E9] hover:from-blue-700 hover:to-[#67D1E9] transition-colors duration-200"
         >
           Elegir plan

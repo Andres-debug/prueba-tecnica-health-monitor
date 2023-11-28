@@ -11,7 +11,7 @@ export const dataFeaturesSection: SectionData = [
   },
   {
     id: 2,
-    title: "Básico",
+    title: "Basico",
     description:
       "Plan Básico - Monitoriza hasta 5 URLs cada 3 horas por sólo 5$ al mes. Ideal para pequeñas empresas y blogs",
     price: "5$ al mes",
